@@ -1,0 +1,14 @@
+artifact_uri: file:///home/andres/work/mlruns/0/e1d199c36bc14e1d9383eeffcd80c940/artifacts
+end_time: 1762028942151
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1d199c36bc14e1d9383eeffcd80c940
+run_name: Modelo_final_Random_Forest_Calibrado
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1762028927658
+status: 3
+tags: []
+user_id: jovyan

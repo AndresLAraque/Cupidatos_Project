@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  jupyter:
+    build: . 
+    container_name: jupyter-lab
+    ports:
+      - "8888:8888"
+    environment:
+      - TZ=America/Bogota
+    volumes:
+      - ./notebooks:/home/andres/work 
+      - ./data:/home/andres/data
+    restart: unless-stopped
+    user: root
+    entrypoint: /bin/bash -c "chown -R 1000:1000 /home/andres/work && chown -R 1000:1000 /home/andres/data && start-notebook.sh --NotebookApp.token='admin1234'"

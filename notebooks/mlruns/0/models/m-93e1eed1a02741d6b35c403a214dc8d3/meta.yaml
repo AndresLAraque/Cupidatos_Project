@@ -1,0 +1,10 @@
+artifact_location: file:///home/andres/work/mlruns/0/models/m-93e1eed1a02741d6b35c403a214dc8d3/artifacts
+creation_timestamp: 1762028929452
+experiment_id: '0'
+last_updated_timestamp: 1762028941859
+model_id: m-93e1eed1a02741d6b35c403a214dc8d3
+model_type: null
+name: calibrated_model
+source_run_id: e1d199c36bc14e1d9383eeffcd80c940
+status: 2
+status_message: null

@@ -1,0 +1,9 @@
+pandas
+numpy<2.0.0
+scikit-learn
+xgboost
+ipython
+pyspark==3.5.0
+delta-spark==3.0.0
+mlflow
+typing-extensions>=4.11.0
